@@ -1,5 +1,10 @@
 Note: Had Claude rewrite as a markdown file bc I'm lazy
 
+If curious, here is the laptop I used for testing: 
+[`ANV15-52-586Z`](https://nanoreview.net/en/laptop/acer-nitro-v-15-anv15-52)
+I upgraded with 2x16GB DDR5 5200 MT/s
+
+
 # Long Horizon Context Protection (LHCP)
 
 November 25, 2026 · Duckie
