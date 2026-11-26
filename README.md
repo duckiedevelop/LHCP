@@ -1,4 +1,4 @@
-Note: Had Claude rewrite as a markdown file bc I'm lazy.
+Note: Had Claude rewrite as a markdown file bc I'm lazy
 
 # Long Horizon Context Protection (LHCP)
 
