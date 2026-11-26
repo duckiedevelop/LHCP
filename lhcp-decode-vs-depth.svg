@@ -1,0 +1,43 @@
+<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 760 392' font-family='Arial, Helvetica, sans-serif'>
+<text x='24.0' y='30.0' font-size='16' fill='#1a1a1a' text-anchor='start' font-weight='bold'>At 32k context, LHCP decodes 52% faster than stock</text>
+<text x='24.0' y='52.0' font-size='12' fill='#5f5f5f' text-anchor='start' font-weight='normal'>Decode speed by context depth, Bonsai-27B Q1_0 on an RTX 4050 Laptop GPU</text>
+<text x='24.0' y='70.0' font-size='12' fill='#5f5f5f' text-anchor='start' font-weight='normal'>Dots are measured; lines are the cost model t(n) = t<tspan baseline-shift='sub' font-size='8.5'>0</tspan> + k·n fitted to them, dashed where projected</text>
+<line x1='64' x2='540' y1='336.0' y2='336.0' stroke='#e4e4e4'/>
+<text x='54.0' y='340.0' font-size='12' fill='#5f5f5f' text-anchor='end' font-weight='normal'>0</text>
+<line x1='64' x2='540' y1='267.4' y2='267.4' stroke='#e4e4e4'/>
+<text x='54.0' y='271.4' font-size='12' fill='#5f5f5f' text-anchor='end' font-weight='normal'>10</text>
+<line x1='64' x2='540' y1='198.9' y2='198.9' stroke='#e4e4e4'/>
+<text x='54.0' y='202.9' font-size='12' fill='#5f5f5f' text-anchor='end' font-weight='normal'>20</text>
+<line x1='64' x2='540' y1='130.3' y2='130.3' stroke='#e4e4e4'/>
+<text x='54.0' y='134.3' font-size='12' fill='#5f5f5f' text-anchor='end' font-weight='normal'>30</text>
+<text x='54.0' y='106.0' font-size='12' fill='#5f5f5f' text-anchor='end' font-weight='normal'>tokens/s</text>
+<line x1='64' x2='540' y1='336' y2='336' stroke='#a8a6a0'/>
+<text x='64.0' y='354.0' font-size='12' fill='#5f5f5f' text-anchor='middle' font-weight='normal'>0</text>
+<text x='159.2' y='354.0' font-size='12' fill='#5f5f5f' text-anchor='middle' font-weight='normal'>10k</text>
+<text x='254.4' y='354.0' font-size='12' fill='#5f5f5f' text-anchor='middle' font-weight='normal'>20k</text>
+<text x='349.6' y='354.0' font-size='12' fill='#5f5f5f' text-anchor='middle' font-weight='normal'>30k</text>
+<text x='444.8' y='354.0' font-size='12' fill='#5f5f5f' text-anchor='middle' font-weight='normal'>40k</text>
+<text x='540.0' y='354.0' font-size='12' fill='#5f5f5f' text-anchor='middle' font-weight='normal'>50k</text>
+<text x='302.0' y='378.0' font-size='12' fill='#5f5f5f' text-anchor='middle' font-weight='normal'>Tokens already in context</text>
+<line x1='376.0' x2='376.0' y1='96' y2='336' stroke='#8c8c8c' stroke-dasharray='3 4'/>
+<text x='370.0' y='106.0' font-size='11.5' fill='#5f5f5f' text-anchor='end' font-weight='normal'>measured</text>
+<text x='382.0' y='106.0' font-size='11.5' fill='#5f5f5f' text-anchor='start' font-weight='normal'>projected</text>
+<path d='M64.0 128.9 L73.5 133.8 L83.0 138.5 L92.6 143.0 L102.1 147.3 L111.6 151.4 L121.1 155.3 L130.6 159.1 L140.2 162.7 L149.7 166.1 L159.2 169.5 L168.7 172.7 L178.2 175.7 L187.8 178.7 L197.3 181.5 L206.8 184.3 L216.3 187.0 L225.8 189.5 L235.4 192.0 L244.9 194.4 L254.4 196.7 L263.9 199.0 L273.4 201.1 L283.0 203.2 L292.5 205.3 L302.0 207.3 L311.5 209.2 L321.0 211.0 L330.6 212.8 L340.1 214.6 L349.6 216.3 L359.1 218.0 L368.6 219.6 L376.0 220.8' fill='none' stroke='#c3c1b9' stroke-width='2'/>
+<path d='M376.0 220.8 L378.2 221.2 L387.7 222.7 L397.2 224.2 L406.7 225.6 L416.2 227.0 L425.8 228.4 L435.3 229.8 L444.8 231.1 L454.3 232.4 L463.8 233.6 L473.4 234.8 L482.9 236.0 L492.4 237.2 L501.9 238.3 L511.4 239.4 L521.0 240.5 L530.5 241.6 L540.0 242.6' fill='none' stroke='#c3c1b9' stroke-width='2' stroke-dasharray='5 5'/>
+<circle cx='64.0' cy='128.9' r='4' fill='#c3c1b9'/>
+<circle cx='220.0' cy='187.2' r='4' fill='#c3c1b9'/>
+<circle cx='376.0' cy='220.8' r='4' fill='#c3c1b9'/>
+<text x='368.0' y='240.8' font-size='12' fill='#1a1a1a' text-anchor='end' font-weight='bold'>16.8</text>
+<text x='552.0' y='230.6' font-size='12' fill='#1a1a1a' text-anchor='start' font-weight='bold'>Stock TurboQuant</text>
+<text x='552.0' y='246.6' font-size='11.5' fill='#5f5f5f' text-anchor='start' font-weight='normal'>56% of speed kept at 32k</text>
+<text x='552.0' y='262.6' font-size='11.5' fill='#5f5f5f' text-anchor='start' font-weight='normal'>~13.6 tokens/s at 50k</text>
+<path d='M64.0 135.8 L73.5 136.6 L83.0 137.5 L92.6 138.3 L102.1 139.2 L111.6 140.0 L121.1 140.8 L130.6 141.6 L140.2 142.4 L149.7 143.2 L159.2 144.0 L168.7 144.8 L178.2 145.6 L187.8 146.4 L197.3 147.1 L206.8 147.9 L216.3 148.6 L225.8 149.4 L235.4 150.1 L244.9 150.9 L254.4 151.6 L263.9 152.3 L273.4 153.0 L283.0 153.8 L292.5 154.5 L302.0 155.2 L311.5 155.9 L321.0 156.6 L330.6 157.3 L340.1 157.9 L349.6 158.6 L359.1 159.3 L368.6 159.9 L376.0 160.5' fill='none' stroke='#2f74d0' stroke-width='2.5'/>
+<path d='M376.0 160.5 L378.2 160.6 L387.7 161.3 L397.2 161.9 L406.7 162.6 L416.2 163.2 L425.8 163.8 L435.3 164.5 L444.8 165.1 L454.3 165.7 L463.8 166.3 L473.4 167.0 L482.9 167.6 L492.4 168.2 L501.9 168.8 L511.4 169.4 L521.0 170.0 L530.5 170.6 L540.0 171.1' fill='none' stroke='#2f74d0' stroke-width='2.5' stroke-dasharray='5 5'/>
+<circle cx='64.0' cy='135.8' r='4' fill='#2f74d0'/>
+<circle cx='220.0' cy='142.6' r='4' fill='#2f74d0'/>
+<circle cx='376.0' cy='160.5' r='4' fill='#2f74d0'/>
+<text x='368.0' y='148.5' font-size='12' fill='#1a1a1a' text-anchor='end' font-weight='bold'>25.6</text>
+<text x='552.0' y='159.1' font-size='12' fill='#1a1a1a' text-anchor='start' font-weight='bold'>LHCP</text>
+<text x='552.0' y='175.1' font-size='11.5' fill='#5f5f5f' text-anchor='start' font-weight='normal'>88% of speed kept at 32k</text>
+<text x='552.0' y='191.1' font-size='11.5' fill='#5f5f5f' text-anchor='start' font-weight='normal'>~24.0 tokens/s at 50k</text>
+</svg>
