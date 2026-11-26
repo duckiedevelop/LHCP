@@ -1,3 +1,5 @@
+Note: Had Claude rewrite as a markdown file bc I'm lazy.
+
 # Long Horizon Context Protection (LHCP)
 
 November 25, 2026 · Duckie
