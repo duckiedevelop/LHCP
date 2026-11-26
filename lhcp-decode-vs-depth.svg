@@ -1,4 +1,5 @@
 <svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 760 392' font-family='Arial, Helvetica, sans-serif'>
+<rect width='100%' height='100%' fill='#ffffff'/>
 <text x='24.0' y='30.0' font-size='16' fill='#1a1a1a' text-anchor='start' font-weight='bold'>At 32k context, LHCP decodes 52% faster than stock</text>
 <text x='24.0' y='52.0' font-size='12' fill='#5f5f5f' text-anchor='start' font-weight='normal'>Decode speed by context depth, Bonsai-27B Q1_0 on an RTX 4050 Laptop GPU</text>
 <text x='24.0' y='70.0' font-size='12' fill='#5f5f5f' text-anchor='start' font-weight='normal'>Dots are measured; lines are the cost model t(n) = t<tspan baseline-shift='sub' font-size='8.5'>0</tspan> + k·n fitted to them, dashed where projected</text>
